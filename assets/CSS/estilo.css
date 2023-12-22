@@ -1,0 +1,334 @@
+
+#tamanho_logo
+{
+    width: 150px;
+    height: 70px;
+}
+h6
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+.header
+{
+margin-right: -12px;
+margin-left: -12px;
+}
+
+
+/* For extra small devices (phones) */
+/* No media query since this is the default in Bootstrap */
+
+/* For small devices (landscape phones) */
+@media (min-width: 576px) { 
+    .tamanho_galeria {
+      width: 100%;
+      height: 150px;
+       }
+    .botao
+{
+
+   color: white;
+    padding: 25px;
+    display: block;
+}
+#mynavbar
+{
+    margin-left: 450px;
+
+}
+
+}
+
+
+h1
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    text-align: center;
+    
+}
+h5
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+h2
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+p
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+hr
+{
+    color: white;
+}
+body
+{
+    background-color: rgb(113, 114, 114);
+}
+.fixo
+{
+margin-top: 100px;
+float: left;
+}
+.fixo2
+{
+    text-align: left;
+}
+.container
+{
+    background-color: rgb(159, 161, 161);
+
+}
+img
+{
+   margin-top: left;
+}
+
+   
+  
+  
+  /* For medium devices (tablets) */
+  @media (min-width: 768px) { 
+    .tamanho_galeria {
+      width: 50%;
+      height: 150px;
+    } .botao
+{
+   margin: 0 1em; 
+}
+h4
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+h1
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+h5
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+h2
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+p
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+hr
+{
+    color: white;
+}
+body
+{
+    background-color: rgb(113, 114, 114);}
+.fixo
+{
+margin-top: 100px;
+float: right;
+}
+.fixo2
+{
+    text-align: center;
+}
+.container
+{
+    background-color: rgb(159, 161, 161);
+
+}
+
+  }
+
+
+
+
+
+
+
+
+  
+  /* For large devices (desktops) */
+  @media (min-width: 992px) { 
+    .tamanho_galeria {
+      width: 33.33%;
+      height: 150px;
+
+}
+
+.botao
+{
+   margin: 0 1em; 
+}
+
+h4
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+
+h1
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+
+h5
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+
+
+h2
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+p
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+hr
+{
+    color: white;
+}
+body
+{
+    background-color: rgb(113, 114, 114);}
+.fixo
+{
+margin-top: 100px;
+
+position: fixed;
+margin-left: 1750px;
+}
+.fixo2
+{
+    text-align: center;
+}
+.container
+{
+    background-color: rgb(159, 161, 161);
+
+} 
+}
+
+
+  
+  /* For extra large devices (large desktops) */
+  @media (min-width: 1200px) { 
+    .tamanho_galeria {
+      width: 25%;
+      height: 150px;
+}
+h5
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+h2
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+p
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+hr
+{
+    color: white;
+}
+body
+{
+    background-color: rgb(128, 131, 131);}
+.fixo
+{
+margin-top: 60px;
+float: right;
+}
+.fixo2
+{
+    text-align: center;
+}
+.container
+{
+    background-color: rgb(159, 161, 161);
+
+}
+.botao
+{
+   margin: 0 1em; 
+}
+h4
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10em;
+    
+}
+h6
+{
+    color: rgb(255, 255, 255);
+   margin: 0 10em;
+  }
+
+                 }
+
+
+                 .voltar-ao-topo {
+                    position: fixed;
+                    bottom: 2em;
+                    right: 2em;
+                    text-decoration: none;
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0.3);
+                    font-size: 12px;
+                    padding: 1em;
+                    display: none;
+                }
+                .voltar-ao-topo:hover {
+                    background-color: rgba(0, 0, 0, 0.6);
+                }
+
+                .efeito:hover{
+                    cursor: pointer;
+                    transition-duration: 1s;
+                    transform:scale(2.3 , 2.3);
+                    z-index:1
+                }
+                .bordai{
+                    
+                    border-radius: 5%;
+                    box-shadow: 0px 0px 5px 5px #3dfc03;
+                }
